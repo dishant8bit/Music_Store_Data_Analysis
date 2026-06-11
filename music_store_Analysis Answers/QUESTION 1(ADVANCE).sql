@@ -1,5 +1,5 @@
 --Q.1(ADVANCE) Find how much amount spent by each customer on artists?
---Write a query to returncustomer name, artist name and total spent
+--Write a query to returncustomer name, artist name and total spent.
 
 WITH best_selling_artist AS (
 SELECT artist.artist_id AS artist_id, artist.name AS artist_name,
